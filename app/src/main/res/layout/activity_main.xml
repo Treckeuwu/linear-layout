@@ -14,34 +14,64 @@
             android:orientation="vertical"
             android:gravity="center"
             >
-                <View
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="245dp"
-                    android:background="#008000
-"
+                    android:background="#008000"
+
+                    >
+                <LinearLayout
+                    android:layout_width="25px"
+                    android:layout_height="match_parent"
+                    android:background="#FFFF00"
                     />
-                <View
+
+                        <LinearLayout
+                            android:layout_width="25px"
+                            android:layout_height="match_parent"
+                            android:background="#FFFF00" />
+
+                </LinearLayout>
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="245dp"
                     android:background="@color/white"
-
-
-
-                    />
-                <ImageView
-                    android:layout_width="100dp"
-                    android:layout_height="100dp"
-                    android:src="@drawable/bandera2"
-                    android:gravity="center"
-
+                        android:gravity="center"
                     >
-                </ImageView>
+                        <LinearLayout
+                            android:layout_width="25px"
+                            android:layout_height="match_parent"
+                            android:background="#FFFF00"
+                            />
 
-                <View
+                        <LinearLayout
+                            android:layout_width="25px"
+                            android:layout_height="match_parent"
+                            android:background="#FFFF00" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="245dp"
                     android:background="#bd1102"
-                    />
+                    android:gravity="right"
+
+                    >
+                        <LinearLayout
+                            android:layout_width="25px"
+                            android:layout_height="match_parent"
+                            android:background="#FFFF00"
+                            />
+
+                        <LinearLayout
+                            android:layout_width="25px"
+                            android:layout_height="match_parent"
+                            android:background="#FFFF00" />
+
+                </LinearLayout>
 
 
         </LinearLayout>
